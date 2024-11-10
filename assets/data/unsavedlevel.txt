@@ -1,0 +1,26 @@
+The horrible battle of Teagoodrej {
+	LevelGeneration {
+		Terrain {
+			numOfChunks = 5, 5
+			seed = 45923495
+			maxHeight = 700
+			roughness = 0.00025
+			persistence = .6
+			octaves = 10
+		}
+		Forest {
+			enabled = true
+			forestSize = 50.0
+			worldCoverage = 0.6
+			maxSteepness = 0.1
+		}
+		Player {
+			Army {
+			}
+		}
+		Opponent {
+			Army {
+			}
+		}
+	}
+}

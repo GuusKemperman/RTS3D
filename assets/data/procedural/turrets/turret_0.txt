@@ -1,0 +1,12 @@
+canFireWithinShape {
+	width = 10.0
+	height = 10.0
+	fov = 45.0
+	zNear = 1.0
+	zFar = 50.0
+}
+name = cannon
+meshPath = models/turret0.obj
+cooldown = 5.0
+turnSpeed = .5
+damage = 10.0f

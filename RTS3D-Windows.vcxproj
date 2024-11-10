@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\RTS3D\packages\Microsoft.Windows.CppWinRT.2.0.220531.1\build\native\Microsoft.Windows.CppWinRT.props" Condition="Exists('..\RTS3D\packages\Microsoft.Windows.CppWinRT.2.0.220531.1\build\native\Microsoft.Windows.CppWinRT.props')" />
+  <PropertyGroup Label="Globals">
+    <CppWinRTOptimized>true</CppWinRTOptimized>
+    <CppWinRTRootNamespaceAutoMerge>true</CppWinRTRootNamespaceAutoMerge>
+    <CppWinRTGenerateWindowsMetadata>true</CppWinRTGenerateWindowsMetadata>
+    <MinimalCoreWin>true</MinimalCoreWin>
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{6f707b8a-771e-4579-b470-c2e4373160d6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RTS3D_Windows</RootNamespace>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.17134.0</WindowsTargetPlatformMinVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\RTS3D\Agent.cpp" />
+    <ClCompile Include="..\RTS3D\Army.cpp" />
+    <ClCompile Include="..\RTS3D\BoundingBox2D.cpp" />
+    <ClCompile Include="..\RTS3D\Camera.cpp" />
+    <ClCompile Include="..\RTS3D\Chunk.cpp" />
+    <ClCompile Include="..\RTS3D\Commands.cpp" />
+    <ClCompile Include="..\RTS3D\Entity.cpp" />
+    <ClCompile Include="..\RTS3D\EntityManager.cpp" />
+    <ClCompile Include="..\RTS3D\Explosion.cpp" />
+    <ClCompile Include="..\RTS3D\Forest.cpp" />
+    <ClCompile Include="..\RTS3D\Frustum.cpp" />
+    <ClCompile Include="..\RTS3D\game.cpp" />
+    <ClCompile Include="..\RTS3D\Graphics.cpp" />
+    <ClCompile Include="..\RTS3D\Hills.cpp" />
+    <ClCompile Include="..\RTS3D\Input.cpp" />
+    <ClCompile Include="..\RTS3D\InputManager.cpp" />
+    <ClCompile Include="..\RTS3D\Level.cpp" />
+    <ClCompile Include="..\RTS3D\Main.cpp" />
+    <ClCompile Include="..\RTS3D\MainMenu.cpp" />
+    <ClCompile Include="..\RTS3D\Material.cpp" />
+    <ClCompile Include="..\RTS3D\Mesh.cpp" />
+    <ClCompile Include="..\RTS3D\MyShader.cpp" />
+    <ClCompile Include="..\RTS3D\Opponent.cpp" />
+    <ClCompile Include="..\RTS3D\Physics.cpp" />
+    <ClCompile Include="..\RTS3D\Player.cpp" />
+    <ClCompile Include="..\RTS3D\Projectile.cpp" />
+    <ClCompile Include="..\RTS3D\Sandbox.cpp" />
+    <ClCompile Include="..\RTS3D\SavedData.cpp" />
+    <ClCompile Include="..\RTS3D\Scene.cpp" />
+    <ClCompile Include="..\RTS3D\SceneLoader.cpp" />
+    <ClCompile Include="..\RTS3D\Scope.cpp" />
+    <ClCompile Include="..\RTS3D\Sprite.cpp" />
+    <ClCompile Include="..\RTS3D\Surface.cpp" />
+    <ClCompile Include="..\RTS3D\Terrain.cpp" />
+    <ClCompile Include="..\RTS3D\TerrainData.cpp" />
+    <ClCompile Include="..\RTS3D\Texture.cpp" />
+    <ClCompile Include="..\RTS3D\Transform.cpp" />
+    <ClCompile Include="..\RTS3D\Tree.cpp" />
+    <ClCompile Include="..\RTS3D\Turret.cpp" />
+    <ClCompile Include="..\RTS3D\Unit.cpp" />
+    <ClCompile Include="..\RTS3D\Variable.cpp" />
+    <ClCompile Include="AnimatedMesh.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Animator.cpp" />
+    <ClCompile Include="Bone.cpp" />
+    <ClCompile Include="CameraControllers.cpp" />
+    <ClCompile Include="GraphicsWindows.cpp" />
+    <ClCompile Include="HuffmanTree.cpp" />
+    <ClCompile Include="ImGuiFontWrapper.cpp" />
+    <ClCompile Include="ImguiHelpers.cpp" />
+    <ClCompile Include="lib\imgui-master\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_impl_glfw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_impl_opengl3.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_impl_win32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_stdlib.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_tables.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="precomp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ProceduralUnitFactory.cpp" />
+    <ClCompile Include="Settings.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\RTS3D\Agent.h" />
+    <ClInclude Include="..\RTS3D\Army.h" />
+    <ClInclude Include="..\RTS3D\AssetManager.h" />
+    <ClInclude Include="..\RTS3D\BoundingBox2D.h" />
+    <ClInclude Include="..\RTS3D\Camera.h" />
+    <ClInclude Include="..\RTS3D\Chunk.h" />
+    <ClInclude Include="..\RTS3D\Commands.h" />
+    <ClInclude Include="..\RTS3D\common.h" />
+    <ClInclude Include="..\RTS3D\Entity.h" />
+    <ClInclude Include="..\RTS3D\EntityManager.h" />
+    <ClInclude Include="..\RTS3D\Explosion.h" />
+    <ClInclude Include="..\RTS3D\Forest.h" />
+    <ClInclude Include="..\RTS3D\Frustum.h" />
+    <ClInclude Include="..\RTS3D\game.h" />
+    <ClInclude Include="..\RTS3D\Graphics.h" />
+    <ClInclude Include="..\RTS3D\Hills.h" />
+    <ClInclude Include="..\RTS3D\Input.h" />
+    <ClInclude Include="..\RTS3D\InputManager.h" />
+    <ClInclude Include="..\RTS3D\Inquirer.h" />
+    <ClInclude Include="..\RTS3D\Level.h" />
+    <ClInclude Include="..\RTS3D\MainMenu.h" />
+    <ClInclude Include="..\RTS3D\Material.h" />
+    <ClInclude Include="..\RTS3D\Mesh.h" />
+    <ClInclude Include="..\RTS3D\MyShader.h" />
+    <ClInclude Include="..\RTS3D\OBJLoader.h" />
+    <ClInclude Include="..\RTS3D\Opponent.h" />
+    <ClInclude Include="..\RTS3D\PerlinNoise.h" />
+    <ClInclude Include="..\RTS3D\Physics.h" />
+    <ClInclude Include="..\RTS3D\Player.h" />
+    <ClInclude Include="..\RTS3D\PoissonGenerator.h" />
+    <ClInclude Include="..\RTS3D\Projectile.h" />
+    <ClInclude Include="..\RTS3D\Sandbox.h" />
+    <ClInclude Include="..\RTS3D\SavedData.h" />
+    <ClInclude Include="..\RTS3D\Scene.h" />
+    <ClInclude Include="..\RTS3D\SceneLoader.h" />
+    <ClInclude Include="..\RTS3D\Scope.h" />
+    <ClInclude Include="..\RTS3D\Singleton.h" />
+    <ClInclude Include="..\RTS3D\Sprite.h" />
+    <ClInclude Include="..\RTS3D\Surface.h" />
+    <ClInclude Include="..\RTS3D\Terrain.h" />
+    <ClInclude Include="..\RTS3D\TerrainData.h" />
+    <ClInclude Include="..\RTS3D\Texture.h" />
+    <ClInclude Include="..\RTS3D\TimeManager.h" />
+    <ClInclude Include="..\RTS3D\Transform.h" />
+    <ClInclude Include="..\RTS3D\Tree.h" />
+    <ClInclude Include="..\RTS3D\Turret.h" />
+    <ClInclude Include="..\RTS3D\Unit.h" />
+    <ClInclude Include="..\RTS3D\Variable.h" />
+    <ClInclude Include="AnimatedMesh.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Animator.h" />
+    <ClInclude Include="Bone.h" />
+    <ClInclude Include="CameraControllers.h" />
+    <ClInclude Include="Delegate.h" />
+    <ClInclude Include="DynamicBitset.h" />
+    <ClInclude Include="GraphicsWindows.h" />
+    <ClInclude Include="HuffmanTree.h" />
+    <ClInclude Include="ImGuiFontWrapper.h" />
+    <ClInclude Include="ImguiHelpers.h" />
+    <ClInclude Include="lib\glad\glad.h" />
+    <ClInclude Include="lib\imgui-master\imconfig.h" />
+    <ClInclude Include="lib\imgui-master\imgui.h" />
+    <ClInclude Include="lib\imgui-master\imgui_impl_glfw.h" />
+    <ClInclude Include="lib\imgui-master\imgui_impl_opengl3.h" />
+    <ClInclude Include="lib\imgui-master\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="lib\imgui-master\imgui_impl_win32.h" />
+    <ClInclude Include="lib\imgui-master\imgui_internal.h" />
+    <ClInclude Include="lib\imgui-master\imgui_stdlib.h" />
+    <ClInclude Include="lib\imgui-master\imstb_rectpack.h" />
+    <ClInclude Include="lib\imgui-master\imstb_textedit.h" />
+    <ClInclude Include="lib\imgui-master\imstb_truetype.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="precomp.h" />
+    <ClInclude Include="ProceduralUnitFactory.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="StringFunctions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\RTS3D\Documentation.txt" />
+    <Text Include="..\RTS3D\README.txt" />
+    <Text Include="assets\data\sprites\endscreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\animated.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\data\sprites\endscreen.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '16.0'">v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Release'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="PropertySheet.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PreprocessorDefinitions>_CONSOLE;WIN32_LEAN_AND_MEAN;WINRT_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalOptions>%(AdditionalOptions) /permissive- /bigobj</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)'=='Debug'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PLATFORM_WIN64;DEBUG;PLATFORM_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lib\bullet3-master;lib\bullet3-master\bullet;lib\GLM 0.9.9.8;lib\glad;lib\glfw\include;lib\OpenCL\inc;lib\assimp-master\include;lib\imgui-master</AdditionalIncludeDirectories>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lib/glfw/lib-vc2019;lib/OpenCL/lib;lib/bullet3-master/bin;lib/assimp-master/x64/Debug;</AdditionalLibraryDirectories>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">assimp-vc143-mtd.lib;Bullet3Collision_vs2010_x64_debug.lib;Bullet3Common_vs2010_x64_debug.lib;Bullet3Dynamics_vs2010_x64_debug.lib;Bullet3Geometry_vs2010_x64_debug.lib;BulletCollision_vs2010_x64_debug.lib;BulletDynamics_vs2010_x64_debug.lib;LinearMath_vs2010_x64_debug.lib;winmm.lib;advapi32.lib;user32.lib;glfw3_x64.lib;gdi32.lib;shell32.lib;OpenCL.lib;OpenGL32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">copy /Y "$(SolutionDir)lib\assimp-master\x64\Debug\assimp-vc143-mtd.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Platform)'=='Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>PLATFORM_WIN32;DEBUG;PLATFORM_WINDOWS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lib\bullet3-master;lib\bullet3-master\bullet;lib\GLM 0.9.9.8;lib\glad;lib\glfw\include;lib\OpenCL\inc;lib\assimp-master\include;lib\imgui-master</AdditionalIncludeDirectories>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lib/glfw/lib-vc2019;lib/OpenCL/lib;lib/bullet3-master/bin;lib/assimp-master/x86/Debug;</AdditionalLibraryDirectories>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">assimp-vc143-mtd.lib;Bullet3Collision_vs2010_debug.lib;Bullet3Common_vs2010_debug.lib;Bullet3Dynamics_vs2010_debug.lib;Bullet3Geometry_vs2010_debug.lib;BulletCollision_vs2010_debug.lib;BulletDynamics_vs2010_debug.lib;LinearMath_vs2010_debug.lib;winmm.lib;advapi32.lib;user32.lib;glfw3.lib;gdi32.lib;shell32.lib;OpenCL.lib;OpenGL32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy /Y "$(SolutionDir)lib\assimp-master\x86\Debug\assimp-vc143-mtd.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)'=='Release'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PLATFORM_WIN32;PLATFORM_WINDOWS;NDEBUG;WIN32;_CONSOLE;WIN32_LEAN_AND_MEAN;WINRT_LEAN_AND_MEAN;_UNICODE;UNICODE</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PLATFORM_WIN64;PLATFORM_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lib\bullet3-master;lib\bullet3-master\bullet;lib\GLM 0.9.9.8;lib\glad;lib\glfw\include;lib\OpenCL\inc;lib\assimp-master\include;lib\imgui-master</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lib\bullet3-master;lib\bullet3-master\bullet;lib\GLM 0.9.9.8;lib\glad;lib\glfw\include;lib\OpenCL\inc;lib\assimp-master\include;lib\imgui-master</AdditionalIncludeDirectories>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdcpp17</LanguageStandard>
+      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lib/glfw/lib-vc2019;lib/OpenCL/lib;lib/bullet3-master/bin;lib/assimp-master/x86/Release;</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lib/glfw/lib-vc2019;lib/OpenCL/lib;lib/bullet3-master/bin;lib/assimp-master/x64/Release;</AdditionalLibraryDirectories>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">assimp-vc143-mt.lib;Bullet3Collision_vs2010.lib;Bullet3Common_vs2010.lib;Bullet3Dynamics_vs2010.lib;Bullet3Geometry_vs2010.lib;BulletCollision_vs2010.lib;BulletDynamics_vs2010.lib;LinearMath_vs2010.lib;winmm.lib;advapi32.lib;user32.lib;glfw3.lib;gdi32.lib;shell32.lib;OpenCL.lib;OpenGL32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">assimp-vc143-mt.lib;Bullet3Collision_vs2010_x64_release.lib;Bullet3Common_vs2010_x64_release.lib;Bullet3Dynamics_vs2010_x64_release.lib;Bullet3Geometry_vs2010_x64_release.lib;BulletCollision_vs2010_x64_release.lib;BulletDynamics_vs2010_x64_release.lib;LinearMath_vs2010_x64_release.lib;winmm.lib;advapi32.lib;user32.lib;glfw3_x64.lib;gdi32.lib;shell32.lib;OpenCL.lib;OpenGL32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy /Y "$(SolutionDir)lib\assimp-master\x86\Release\assimp-vc143-mt.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">copy /Y "$(SolutionDir)lib\assimp-master\x64\Release\assimp-vc143-mt.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

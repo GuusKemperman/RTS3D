@@ -1,0 +1,28 @@
+mainmenu {
+	LevelGeneration {
+		Terrain {
+			numOfChunks = 2, 2
+			seed = 102942
+			maxHeight = 200
+			roughness = 0.001
+			persistence = .6
+			octaves = 8
+		}
+		Forest {
+			enabled = true
+			forestSize = 50.0
+			worldCoverage = .5
+			maxSteepness = .25
+		}
+		Player {
+			Army {
+
+			}
+		}
+		Opponent {
+			Army {
+
+			}
+		}
+	}
+}

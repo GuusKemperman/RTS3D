@@ -1,0 +1,29 @@
+turretNodes {
+	node0 {
+		p = 0.0, -0.8, 2.5
+		o = 0.131, 0.0, 0.0, .991
+		
+	}
+	node1 {
+		p = 2.0, -0.5, 1.0
+		o = 0.131, 0.0, 0.0, .991
+		
+	}
+	node1 {
+		p = -2.0, -0.5, 1.0
+		o = 0.131, 0.0, 0.0, .991
+		
+	}
+}
+
+name = jet
+meshPathArmy1 = models/body2_army1.obj
+meshPathArmy2 = models/body2_army2.obj
+halfExtends = 5.0, 2.0, 4.0
+hoverAtHeight = 7.5
+
+maxHealth = .2
+movementSpeed = 10.0
+turnSpeed = 1.0
+mass = 2.0
+deathExplosionSize = 10.0

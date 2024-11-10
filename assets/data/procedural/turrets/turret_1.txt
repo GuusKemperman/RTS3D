@@ -1,0 +1,12 @@
+canFireWithinShape {
+	width = 10.0
+	height = 10.0
+	fov = 45.0
+	zNear = 1.0
+	zFar = 50.0
+}
+name = mini-gun
+meshPath = models/turret1.obj
+cooldown = 2.0
+turnSpeed = .5
+damage = 5.0f

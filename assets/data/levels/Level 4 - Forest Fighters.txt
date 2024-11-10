@@ -1,0 +1,52 @@
+Level 4 - Forest Fighters {
+	LevelGeneration {
+		Terrain {
+			numOfChunks = 2, 2
+			seed = 54252
+			maxHeight = 100
+			roughness = 0.001
+			persistence = .6
+			octaves = 8
+		}
+		Forest {
+			enabled = true
+			forestSize = 500
+			worldCoverage = 0.35
+			maxSteepness = .25
+		}
+		Player {
+			Army {
+				woof's battalion {
+					bodies {
+						junior = 0.333333
+						jumbo = 0.333333
+						jet = 0.333333
+					}
+					turrets {
+						cannon = 0.5
+						mini-gun = 0.5
+					}
+					amount = 10
+					centre = 150.000000, 50.000000
+				}
+			}
+		}
+		Opponent {
+			Army {
+				ongu's battalion {
+					bodies {
+						junior = 0.333333
+						jumbo = 0.333333
+						jet = 0.333333
+					}
+					turrets {
+						cannon = 0.5
+						mini-gun = 0.5
+					}
+					amount = 10
+					centre = 150.000000, 200.000000
+				}
+			}
+		}
+	}
+}

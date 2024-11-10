@@ -1,0 +1,3 @@
+texture = data/sprites/endscreen.png
+gridSize = 1, 2
+totalNumOfFrames = 2

@@ -1,0 +1,28 @@
+sandbox {
+	LevelGeneration {
+		Terrain {
+			numOfChunks = 1, 1
+			seed = 45923495
+			maxHeight = 0
+			roughness = 0.001
+			persistence = .6
+			octaves = 8
+		}
+		Forest {
+			enabled = false
+			forestSize = 50.0
+			worldCoverage = .5
+			maxSteepness = .25
+		}
+		Player {
+			Army {
+
+			}
+		}
+		Opponent {
+			Army {
+
+			}
+		}
+	}
+}

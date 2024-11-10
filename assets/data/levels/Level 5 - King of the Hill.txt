@@ -1,0 +1,52 @@
+Level 5 - King of the Hill {
+	LevelGeneration {
+		Terrain {
+			numOfChunks = 2, 5
+			seed = 45923495
+			maxHeight = 500
+			roughness = 0.0005
+			persistence = .6
+			octaves = 8
+		}
+		Forest {
+			enabled = false
+			forestSize = 50.0
+			worldCoverage = .5
+			maxSteepness = .25
+		}
+		Player {
+			Army {
+				unge's battalion {
+					bodies {
+						junior = 1
+						jumbo = 0
+						jet = 0
+					}
+					turrets {
+						cannon = 0.5
+						mini-gun = 0.5
+					}
+					amount = 30
+					centre = 50.000000, 50.000000
+				}
+			}
+		}
+		Opponent {
+			Army {
+				gosh's battalion {
+					bodies {
+						junior = 0
+						jumbo = 0
+						jet = 1
+					}
+					turrets {
+						cannon = 5.82077e-09
+						mini-gun = 1
+					}
+					amount = 6
+					centre = 50.000000, 500.000000
+				}
+			}
+		}
+	}
+}

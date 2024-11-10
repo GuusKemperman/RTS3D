@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Agent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Army.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Forest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hills.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Opponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SavedData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sandbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui.cpp">
+      <Filter>lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_demo.cpp">
+      <Filter>lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_draw.cpp">
+      <Filter>lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_impl_opengl3.cpp">
+      <Filter>lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_stdlib.cpp">
+      <Filter>lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_tables.cpp">
+      <Filter>lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui-master\imgui_widgets.cpp">
+      <Filter>lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraControllers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsLinux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HuffmanTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiFontWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralUnitFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImguiHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Army.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Forest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hills.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Opponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PoissonGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SavedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inquirer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sandbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui-master\imconfig.h">
+      <Filter>lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui-master\imgui.h">
+      <Filter>lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui-master\imgui_impl_opengl3.h">
+      <Filter>lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui-master\imgui_impl_opengl3_loader.h">
+      <Filter>lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui-master\imgui_internal.h">
+      <Filter>lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui-master\imgui_stdlib.h">
+      <Filter>lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui-master\imstb_rectpack.h">
+      <Filter>lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui-master\imstb_textedit.h">
+      <Filter>lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui-master\imstb_truetype.h">
+      <Filter>lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="HuffmanTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraControllers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicBitset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsLinux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiFontWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralUnitFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImguiHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\grass.png">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\rock.png">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="assets\data\sprites\loadingicon.png">
+      <Filter>assets\data\sprites</Filter>
+    </Image>
+    <Image Include="assets\models\army1.png">
+      <Filter>assets\models</Filter>
+    </Image>
+    <Image Include="assets\models\army2.png">
+      <Filter>assets\models</Filter>
+    </Image>
+    <Image Include="assets\models\enemyhighlightedindicator.png">
+      <Filter>assets\models</Filter>
+    </Image>
+    <Image Include="assets\models\highlightedindicator.png">
+      <Filter>assets\models</Filter>
+    </Image>
+    <Image Include="assets\models\projectile.png">
+      <Filter>assets\models</Filter>
+    </Image>
+    <Image Include="assets\models\selectedindicator.png">
+      <Filter>assets\models</Filter>
+    </Image>
+    <Image Include="assets\models\test.png">
+      <Filter>assets\models</Filter>
+    </Image>
+    <Image Include="assets\models\tree.png">
+      <Filter>assets\models</Filter>
+    </Image>
+    <Image Include="assets\data\sprites\endscreen.png" />
+    <Image Include="assets\models\explosion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\standard.frag">
+      <Filter>assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\standard.vert">
+      <Filter>assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\terrain.frag">
+      <Filter>assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\terrain.vert">
+      <Filter>assets\shaders</Filter>
+    </None>
+    <None Include="assets\materials\terrain.mtl">
+      <Filter>assets\materials</Filter>
+    </None>
+    <None Include="assets\shaders\debugshader.frag">
+      <Filter>assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\debugshader.vert">
+      <Filter>assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\animated.vert">
+      <Filter>assets\shaders</Filter>
+    </None>
+    <None Include="assets\models\enemyhighlightedindicator.mtl">
+      <Filter>assets\models</Filter>
+    </None>
+    <None Include="assets\models\highlightedindicator.mtl">
+      <Filter>assets\models</Filter>
+    </None>
+    <None Include="assets\models\projectile.mtl">
+      <Filter>assets\models</Filter>
+    </None>
+    <None Include="assets\models\selectedindicator.mtl">
+      <Filter>assets\models</Filter>
+    </None>
+    <None Include="assets\models\tree.mtl">
+      <Filter>assets\models</Filter>
+    </None>
+    <None Include="assets\models\army1.mtl">
+      <Filter>assets\models</Filter>
+    </None>
+    <None Include="assets\models\army2.mtl">
+      <Filter>assets\models</Filter>
+    </None>
+    <None Include="assets\models\explosion.dae" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f14c6e23-2968-4695-8076-6f162b6ed63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a307083b-bc9b-4030-902c-0888be5f43a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{4c0b68cb-e977-4484-8f17-608c4d5feaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\models">
+      <UniqueIdentifier>{348a9e47-ea65-4005-9dfa-21851fffbf38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\data">
+      <UniqueIdentifier>{b3cbf579-7d1f-4cdf-b61c-c98d3e4b44fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\textures">
+      <UniqueIdentifier>{dc2df5b9-5adf-44e9-9ec0-9d6df6289acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\shaders">
+      <UniqueIdentifier>{3ec89bbc-b710-4d8c-8833-b7110ea5d234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\materials">
+      <UniqueIdentifier>{01dac6d3-b1cb-4af7-a58d-5f7f29ab91d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\data\levels">
+      <UniqueIdentifier>{338ca41b-0a51-401c-98a3-c3addefe8496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\data\saves">
+      <UniqueIdentifier>{73dff764-0642-4df8-a915-cf64dae34c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\data\sprites">
+      <UniqueIdentifier>{c551e9ab-56b7-455f-9fe6-6a94a98b7137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{553fb5e7-47c7-4a8b-a1d7-c038dee09e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\imgui">
+      <UniqueIdentifier>{3acf4fee-7e78-4088-9330-bf06daf9d9ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\fonts">
+      <UniqueIdentifier>{33aa4abe-5171-4063-8531-2eb2af299fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\data\procedural">
+      <UniqueIdentifier>{94da6253-b108-42c1-a477-9f9c1600284b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\data\procedural\bodies">
+      <UniqueIdentifier>{32b8f116-93e0-4230-98b6-36c2f4479d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\data\procedural\turrets">
+      <UniqueIdentifier>{0b7e98e5-1077-444e-9225-a90fced1de2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\data\sprites\loadingicon.txt">
+      <Filter>assets\data\sprites</Filter>
+    </Text>
+    <Text Include="assets\data\sandbox.txt">
+      <Filter>assets\data</Filter>
+    </Text>
+    <Text Include="assets\data\mainmenu.txt">
+      <Filter>assets\data</Filter>
+    </Text>
+    <Text Include="assets\data\settings.txt">
+      <Filter>assets\data</Filter>
+    </Text>
+    <Text Include="assets\data\procedural\bodies\body_1.txt">
+      <Filter>assets\data\procedural\bodies</Filter>
+    </Text>
+    <Text Include="assets\data\procedural\bodies\body_2.txt">
+      <Filter>assets\data\procedural\bodies</Filter>
+    </Text>
+    <Text Include="assets\data\procedural\turrets\turret_0.txt">
+      <Filter>assets\data\procedural\turrets</Filter>
+    </Text>
+    <Text Include="assets\data\procedural\turrets\turret_1.txt">
+      <Filter>assets\data\procedural\turrets</Filter>
+    </Text>
+    <Text Include="assets\data\procedural\bodies\body_0.txt">
+      <Filter>assets\data\procedural\bodies</Filter>
+    </Text>
+    <Text Include="assets\data\sprites\endscreen.txt" />
+    <Text Include="assets\data\levels\Level 1 - Duel.txt" />
+    <Text Include="assets\data\levels\Level 2 - Small battle.txt" />
+    <Text Include="assets\data\levels\Level 3 - Arial strikes.txt" />
+    <Text Include="assets\data\levels\Level 4 - Forest Fighters.txt" />
+    <Text Include="assets\data\levels\Level 5 - King of the Hill.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="assets\models\body0_army1.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\body0_army2.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\body1_army1.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\body1_army2.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\body2_army1.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\body2_army2.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\enemyhighlightedindicator.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\highlightedindicator.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\projectile.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\selectedindicator.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\tree0.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\tree1.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\tree2.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\tree3.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\tree4.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\tree5.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\tree6.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\tree7.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\tree8.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\tree9.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\turret0.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+    <Object Include="assets\models\turret1.obj">
+      <Filter>assets\models</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\fonts\ALGER.TTF">
+      <Filter>assets\fonts</Filter>
+    </Font>
+    <Font Include="assets\fonts\courbd.ttf" />
+  </ItemGroup>
+</Project>

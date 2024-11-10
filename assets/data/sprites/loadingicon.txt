@@ -1,0 +1,3 @@
+texture = data/sprites/loadingicon.png
+gridSize = 5, 5
+totalNumOfFrames = 20

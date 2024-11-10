@@ -1,0 +1,91 @@
+Level 3 - Arial strikes {
+	LevelGeneration {
+		Terrain {
+			numOfChunks = 5, 5
+			seed = 45923495
+			maxHeight = 500
+			roughness = 0.00011
+			persistence = .6
+			octaves = 10
+		}
+		Forest {
+			enabled = false
+			forestSize = 20
+			worldCoverage = 0
+			maxSteepness = .25
+		}
+		Player {
+			Army {
+				woof's battalion {
+					bodies {
+						junior = 0
+						jumbo = 0
+						jet = 1
+					}
+					turrets {
+						cannon = 1.11759e-08
+						mini-gun = 1
+					}
+					amount = 30
+					centre = 40.000000, 40.000000
+				}
+			}
+		}
+		Opponent {
+			Army {
+				ongu's battalion {
+					bodies {
+						junior = 0.499999
+						jumbo = 0.499999
+						jet = 0
+					}
+					turrets {
+						cannon = 0.5
+						mini-gun = 0.5
+					}
+					amount = 5
+					centre = 200.000000, 100.000000
+				}
+				ngaj's battalion {
+					bodies {
+						junior = 0.499999
+						jumbo = 0.499999
+						jet = 0
+					}
+					turrets {
+						cannon = 0.5
+						mini-gun = 0.5
+					}
+					amount = 10
+					centre = 300.000000, 400.000000
+				}
+				abreaja's battalion {
+					bodies {
+						junior = 0.499999
+						jumbo = 0.499999
+						jet = 0
+					}
+					turrets {
+						cannon = 0.5
+						mini-gun = 0.5
+					}
+					amount = 5
+					centre = 200.000000, 100.000000
+				}
+				eabru's battalion {
+					bodies {
+						junior = 0.499999
+						jumbo = 0.499999
+						jet = 0
+					}
+					turrets {
+						cannon = 0.5
+						mini-gun = 0.5
+					}
+					amount = 5
+					centre = 150.000000, 300.000000
+				}
+			}
+		}
+	}
+}

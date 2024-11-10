@@ -1,0 +1,20 @@
+turretNodes {
+	node0 {
+		p = 0.0, 1.7, 0.0
+		o = 0.0, 0.0, 0.0, 1.0
+		s = 1.75, 1.75, 1.75
+		
+	}
+}
+
+name = jumbo
+meshPathArmy1 = models/body1_army1.obj
+meshPathArmy2 = models/body1_army2.obj
+halfExtends = 1.8, .7, 2.5
+hoverAtHeight = 2.5
+
+maxHealth = 2.5
+movementSpeed = 2.0
+turnSpeed = .5
+mass = 20.0
+deathExplosionSize = 5.0

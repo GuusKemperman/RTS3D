@@ -1,0 +1,52 @@
+Level 1 - Duel {
+	LevelGeneration {
+		Terrain {
+			numOfChunks = 1, 1
+			seed = 45923495
+			maxHeight = 0
+			roughness = 0.001
+			persistence = .6
+			octaves = 8
+		}
+		Forest {
+			enabled = false
+			forestSize = 50.0
+			worldCoverage = .5
+			maxSteepness = .25
+		}
+		Player {
+			Army {
+				woof's battalion {
+					bodies {
+						junior = 1
+						jumbo = 0
+						jet = 0
+					}
+					turrets {
+						cannon = 1
+						mini-gun = 0
+					}
+					amount = 1
+					centre = 10.000000, 10.000000
+				}
+			}
+		}
+		Opponent {
+			Army {
+				ongu's battalion {
+					bodies {
+						junior = 1
+						jumbo = 0
+						jet = 0
+					}
+					turrets {
+						cannon = 1
+						mini-gun = 0
+					}
+					amount = 1
+					centre = 100.000000, 100.000000
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9874e671-8509-4a31-8dc1-dc525e2aad71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{507f9185-428d-4a2e-86c1-3e0d8632faf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Resources">
+      <UniqueIdentifier>{02923e1b-279d-4008-a54d-dcda1cb1b8b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Graphics.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InvadersInput.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MyFiles.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectModel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloCubes.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CubeModel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShipModel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyObjectLoader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp" />
+    <ClCompile Include="Hills.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MyShader.cpp" />
+    <ClCompile Include="Opponent.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="PhysicsObject.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="RotatingEntity.cpp" />
+    <ClCompile Include="SavedData.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Scope.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="Agent.cpp" />
+    <ClCompile Include="Army.cpp" />
+    <ClCompile Include="Barrel.cpp" />
+    <ClCompile Include="Binding.cpp" />
+    <ClCompile Include="BoundingBox2D.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Canvas.cpp" />
+    <ClCompile Include="Chunk.cpp" />
+    <ClCompile Include="Commands.cpp" />
+    <ClCompile Include="Demo.cpp" />
+    <ClCompile Include="Element.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="Forest.cpp" />
+    <ClCompile Include="Frustum.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="Gunship.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="TerrainData.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="Turret.cpp" />
+    <ClCompile Include="UIButton.cpp" />
+    <ClCompile Include="UICollapsingHeader.cpp" />
+    <ClCompile Include="UIInput.cpp" />
+    <ClCompile Include="UINode.cpp" />
+    <ClCompile Include="UIText.cpp" />
+    <ClCompile Include="UIWindow.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="Variable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Graphics.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\InvadersInput.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MyFiles.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ObjectModel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\stb_image.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\CubeModel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ShipModel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\tiny_obj_loader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="Hills.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MyShader.h" />
+    <ClInclude Include="OBJLoader.h" />
+    <ClInclude Include="Opponent.h" />
+    <ClInclude Include="PerlinNoise.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="PhysicsObject.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PoissonGenerator.h" />
+    <ClInclude Include="precomp.h" />
+    <ClInclude Include="RotatingEntity.h" />
+    <ClInclude Include="SavedData.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Scope.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Agent.h" />
+    <ClInclude Include="Army.h" />
+    <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="Barrel.h" />
+    <ClInclude Include="Binding.h" />
+    <ClInclude Include="BoundingBox2D.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Canvas.h" />
+    <ClInclude Include="Chunk.h" />
+    <ClInclude Include="Commands.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="Demo.h" />
+    <ClInclude Include="Element.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="Forest.h" />
+    <ClInclude Include="Frustum.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="Gunship.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="TerrainData.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Turret.h" />
+    <ClInclude Include="UIButton.h" />
+    <ClInclude Include="UICollapsingHeader.h" />
+    <ClInclude Include="UIInput.h" />
+    <ClInclude Include="UINode.h" />
+    <ClInclude Include="UISprite.h" />
+    <ClInclude Include="UIText.h" />
+    <ClInclude Include="UIWindow.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="Variable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\Harvey2.jpg">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_01.png">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_02.png">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_03.png">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_01_em.png">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_02_em.png">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_03_em.png">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Models\brian_01.mtl">
+      <Filter>Headers\Resources</Filter>
+    </None>
+    <None Include="Resources\Models\brian_02.mtl">
+      <Filter>Headers\Resources</Filter>
+    </None>
+    <None Include="Resources\Models\brian_03.mtl">
+      <Filter>Headers\Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Models\brian_01.obj">
+      <Filter>Headers\Resources</Filter>
+    </Resource>
+    <Resource Include="Resources\Models\brian_02.obj">
+      <Filter>Headers\Resources</Filter>
+    </Resource>
+    <Resource Include="Resources\Models\brian_03.obj">
+      <Filter>Headers\Resources</Filter>
+    </Resource>
+  </ItemGroup>
+</Project>

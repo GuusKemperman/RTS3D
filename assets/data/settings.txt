@@ -1,0 +1,6 @@
+	CPU-based Culling = true
+	maxTextureSize = 2048
+	fontQuality = 1
+	maxFontQuality = 1
+	specularIntensity = 0.5
+	showControlsOnStart = true

@@ -1,0 +1,52 @@
+Level 2 - Small battle {
+	LevelGeneration {
+		Terrain {
+			numOfChunks = 4, 4
+			seed = 45923495
+			maxHeight = 100
+			roughness = 0.001
+			persistence = .6
+			octaves = 8
+		}
+		Forest {
+			enabled = false
+			forestSize = 50.0
+			worldCoverage = .5
+			maxSteepness = .25
+		}
+		Player {
+			Army {
+				woof's battalion {
+					bodies {
+						junior = 0.333333
+						jumbo = 0.333333
+						jet = 0.333333
+					}
+					turrets {
+						cannon = 0.5
+						mini-gun = 0.5
+					}
+					amount = 20
+					centre = 100.000000, 100.000000
+				}
+			}
+		}
+		Opponent {
+			Army {
+				ongu's battalion {
+					bodies {
+						junior = 0.333333
+						jumbo = 0.333333
+						jet = 0.333333
+					}
+					turrets {
+						cannon = 0.5
+						mini-gun = 0.5
+					}
+					amount = 20
+					centre = 300.000000, 300.000000
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+-----------------------------
+Serialization/Deserialization
+-----------------------------
+For the classes that you want to be serialized, all you need to do is build a factory for it at the start of the program. 
+If this class also has additional member variables that you want to be serialized, you implement a serialization and 
+deserialization function (a good example can be found in Agent.cpp), but for classes that don't this is not required.
